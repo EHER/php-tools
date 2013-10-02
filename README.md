@@ -1,6 +1,10 @@
 #php-tools
 Install php console tools with composer
 
+Tools included:
+- phpcs
+- phpwatch
+
 ##How to install
 
 ```bash
