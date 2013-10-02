@@ -11,7 +11,7 @@ Tools included:
 git clone https://github.com/EHER/php-tools.git ~/.php-tools
 cd ~/.php-tools
 curl -sS https://getcomposer.org/installer | php
-php composer install
+php composer.phar install
 ```
 
 ##Configure Path
