@@ -2,6 +2,7 @@
 Install php console tools with composer
 
 Tools included:
+- php-cs-fixer
 - phpcs
 - phpwatch
 

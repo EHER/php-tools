@@ -2,7 +2,8 @@
     "name": "eher/php-tools",
     "require": {
         "squizlabs/php_codesniffer": "*",
-        "eher/phpwatch": "*"
+        "eher/phpwatch": "*",
+        "fabpot/php-cs-fixer": "*"
     },
     "config": {
         "bin-dir": "../bin"
