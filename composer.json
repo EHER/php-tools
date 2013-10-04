@@ -1,10 +1,11 @@
 {
     "name": "eher/php-tools",
     "require": {
-        "squizlabs/php_codesniffer": "*",
         "eher/phpwatch": "*",
         "fabpot/php-cs-fixer": "*",
-        "phpunit/phpunit": "*"
+        "phpspec/phpspec": "*",
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*"
     },
     "config": {
         "bin-dir": "../bin"

@@ -4,6 +4,7 @@ Php console tools installed with composer
 Tools included:
 - [php-cs-fixer][php-cs-fixer] - Analyzes some PHP source code and tries to fix coding standards issues (PSR-1 and PSR-2 compatible)
 - [phpcs][phpcs] - PHP_CodeSniffer tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards
+- [phpspec][phpspec] - SpecBDD Framework for PHP
 - [phpunit][phpunit] - The PHP Unit Testing framework
 - [phpwatch][phpwatch] - Command line client that allow you to run arbitrary shell commands whenever changes occur in a list of specified files
 
@@ -36,5 +37,6 @@ If you don't have a .bash_profile, just create it.
 [composer]: http://getcomposer.org/
 [php-cs-fixer]: https://github.com/fabpot/php-cs-fixer
 [phpcs]: https://github.com/squizlabs/PHP_CodeSniffer
+[phpspec]: https://github.com/phpspec/phpspec
 [phpunit]: https://github.com/sebastianbergmann/phpunit
 [phpwatch]: https://github.com/EHER/phpwatch

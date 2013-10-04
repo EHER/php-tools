@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "65b337874b6237b90e1c81d9639f49a7",
+    "hash": "4f4a869fbf928a6fbd2b9412f164833b",
     "packages": [
         {
             "name": "eher/phpwatch",
@@ -139,6 +139,106 @@
                 "shell"
             ],
             "time": "2013-01-01 16:03:55"
+        },
+        {
+            "name": "mockery/mockery",
+            "version": "0.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/padraic/mockery.git",
+                "reference": "10ef0f8a63392f244e5b19de261b6a08eb8e4109"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/padraic/mockery/zipball/10ef0f8a63392f244e5b19de261b6a08eb8e4109",
+                "reference": "10ef0f8a63392f244e5b19de261b6a08eb8e4109",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "suggest": {
+                "Hamcrest": "1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mockery": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Pádraic Brady",
+                    "email": "padraic.brady@gmail.com",
+                    "homepage": "http://blog.astrumfutura.com"
+                }
+            ],
+            "description": "Mockery is a simple yet flexible PHP mock object framework for use in unit testing with PHPUnit, PHPSpec or any other testing framework. Its core goal is to offer a test double framework with a succint API capable of clearly defining all possible object operations and interactions using a human readable Domain Specific Language (DSL). Designed as a drop in alternative to PHPUnit's phpunit-mock-objects library, Mockery is easy to integrate with PHPUnit and can operate alongside phpunit-mock-objects without the World ending.",
+            "homepage": "http://github.com/padraic/mockery",
+            "keywords": [
+                "BDD",
+                "TDD",
+                "library",
+                "mock",
+                "mock objects",
+                "mockery",
+                "stub",
+                "test",
+                "test double",
+                "testing"
+            ],
+            "time": "2012-01-24 20:22:39"
+        },
+        {
+            "name": "phpspec/phpspec",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpspec/phpspec.git",
+                "reference": "cb54c94f89a5e1f4098363e19ccfe624b3e5346f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/cb54c94f89a5e1f4098363e19ccfe624b3e5346f",
+                "reference": "cb54c94f89a5e1f4098363e19ccfe624b3e5346f",
+                "shasum": ""
+            },
+            "require": {
+                "mockery/mockery": "0.7.*",
+                "php": ">=5.3.2",
+                "sebastianbergmann/php-text-template": "1.1.1"
+            },
+            "bin": [
+                "scripts/phpspec.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPSpec": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "PHPSpec Team",
+                    "homepage": "https://github.com/phpspec/phpspec/contributors"
+                }
+            ],
+            "description": "PHPSpec: The BDD Specification Library",
+            "homepage": "http://phpspec.net",
+            "keywords": [
+                "BDD",
+                "spec",
+                "test"
+            ],
+            "time": "2012-10-03 14:07:08"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -556,6 +656,46 @@
                 "diff"
             ],
             "time": "2013-07-09 05:45:26"
+        },
+        {
+            "name": "sebastianbergmann/php-text-template",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MarcelloDuarte/php-text-template.git",
+                "reference": "c5273979d2df13acfc345cca71c1394b25bfd9f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MarcelloDuarte/php-text-template/zipball/c5273979d2df13acfc345cca71c1394b25bfd9f2",
+                "reference": "c5273979d2df13acfc345cca71c1394b25bfd9f2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Text": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The BSD 3-Clause License"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "homepage": "http://sebastian-bergmann.de/"
+                }
+            ],
+            "description": "Text_Template: Simple template engine",
+            "homepage": "https://github.com/sebastianbergmann/php-text-template",
+            "keywords": [
+                "template"
+            ],
+            "time": "2012-08-01 15:45:04"
         },
         {
             "name": "squizlabs/php_codesniffer",
