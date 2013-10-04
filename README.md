@@ -13,7 +13,7 @@ Tools included:
 git clone https://github.com/EHER/php-tools.git ~/.php-tools
 ```
 
-2. Download [composer]
+2. Get [composer]
 ```bash
 cd ~/.php-tools
 curl -sS https://getcomposer.org/installer | php
