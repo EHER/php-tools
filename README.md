@@ -2,11 +2,12 @@
 Php console tools installed with composer
 
 Tools included:
-- [php-cs-fixer][php-cs-fixer] - Analyzes some PHP source code and tries to fix coding standards issues (PSR-1 and PSR-2 compatible)
-- [phpcs][phpcs] - PHP_CodeSniffer tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards
-- [phpspec][phpspec] - SpecBDD Framework for PHP
-- [phpunit][phpunit] - The PHP Unit Testing framework
-- [phpwatch][phpwatch] - Command line client that allow you to run arbitrary shell commands whenever changes occur in a list of specified files
+- [composer] - Dependency Manager for PHP
+- [php-cs-fixer] - Analyzes some PHP source code and tries to fix coding standards issues (PSR-1 and PSR-2 compatible)
+- [phpcs] - PHP_CodeSniffer tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards
+- [phpspec] - SpecBDD Framework for PHP
+- [phpunit] - The PHP Unit Testing framework
+- [phpwatch] - Command line client that allow you to run arbitrary shell commands whenever changes occur in a list of specified files
 
 ##Install in 3 steps
 
@@ -19,11 +20,12 @@ git clone https://github.com/EHER/php-tools.git ~/.php-tools
 ```bash
 cd ~/.php-tools
 curl -sS https://getcomposer.org/installer | php
+mv composer.phar ~/bin/composer
 ```
 
 3. Install
 ```bash
-php composer.phar install
+~/bin/composer install
 ```
 
 ##Configure Path
