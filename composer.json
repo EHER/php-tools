@@ -5,7 +5,8 @@
         "fabpot/php-cs-fixer": "*",
         "phpspec/phpspec": "*",
         "phpunit/phpunit": "*",
-        "squizlabs/php_codesniffer": "*"
+        "squizlabs/php_codesniffer": "*",
+        "phpmd/phpmd" : "1.4.*"
     },
     "config": {
         "bin-dir": "../bin"
