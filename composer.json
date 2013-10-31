@@ -3,6 +3,7 @@
     "require": {
         "eher/phpwatch": "*",
         "fabpot/php-cs-fixer": "*",
+        "phpmd/phpmd" : "*",
         "phpspec/phpspec": "*",
         "phpunit/phpunit": "*",
         "squizlabs/php_codesniffer": "*"
