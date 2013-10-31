@@ -42,3 +42,7 @@ If you don't have a .bash_profile, just create it.
 [phpspec]: https://github.com/phpspec/phpspec
 [phpunit]: https://github.com/sebastianbergmann/phpunit
 [phpwatch]: https://github.com/EHER/phpwatch
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/EHER/php-tools/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
