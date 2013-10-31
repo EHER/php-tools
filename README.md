@@ -9,6 +9,7 @@ Tools included:
 - [phpunit] - The PHP Unit Testing framework
 - [phpwatch] - Command line client that allow you to run arbitrary shell commands whenever changes occur in a list of specified files
 - [phpmd] - PHPMD is a spin-off project of PHP Depend and aims to be a PHP equivalent of the well known Java tool PMD
+- [twig-lint] - Twig-lint is a lint tool for your twig files
 
 ##Install in 3 steps
 
@@ -44,6 +45,7 @@ If you don't have a .bash_profile, just create it.
 [phpunit]: https://github.com/sebastianbergmann/phpunit
 [phpwatch]: https://github.com/EHER/phpwatch
 [phpmd]: https://github.com/phpmd/phpmd
+[twig-lint]: https://github.com/asm89/twig-lint
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/EHER/php-tools/trend.png)](https://bitdeli.com/free "Bitdeli Badge")

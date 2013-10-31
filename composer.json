@@ -2,6 +2,7 @@
     "name": "eher/php-tools",
     "require": {
         "eher/phpwatch": "*",
+        "asm89/twig-lint": "dev-master",
         "fabpot/php-cs-fixer": "*",
         "phpmd/phpmd" : "*",
         "phpspec/phpspec": "*",
