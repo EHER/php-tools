@@ -1,9 +1,10 @@
 {
     "name": "eher/php-tools",
     "require": {
-        "eher/phpwatch": "*",
         "asm89/twig-lint": "dev-master",
+        "eher/phpwatch": "*",
         "fabpot/php-cs-fixer": "*",
+        "pdepend/pdepend" : "*",
         "phpmd/phpmd" : "*",
         "phpspec/phpspec": "*",
         "phpunit/phpunit": "*",
