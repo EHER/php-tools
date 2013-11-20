@@ -40,7 +40,8 @@
             "authors": [
                 {
                     "name": "Alexander",
-                    "email": "iam.asm89@gmail.com"
+                    "email": "iam.asm89@gmail.com",
+                    "homepage": "http://asm89.github.io/"
                 }
             ],
             "description": "Standalone twig linter.",
@@ -53,24 +54,24 @@
         },
         {
             "name": "eher/phpwatch",
-            "version": "1.2",
+            "version": "1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/EHER/phpwatch.git",
-                "reference": "8a5e873bd1a6a6c9b87e9c8167e57a036851edfc"
+                "reference": "b3127da5b8dd6936b6a2c339c106391993e6a91f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EHER/phpwatch/zipball/8a5e873bd1a6a6c9b87e9c8167e57a036851edfc",
-                "reference": "8a5e873bd1a6a6c9b87e9c8167e57a036851edfc",
+                "url": "https://api.github.com/repos/EHER/phpwatch/zipball/b3127da5b8dd6936b6a2c339c106391993e6a91f",
+                "reference": "b3127da5b8dd6936b6a2c339c106391993e6a91f",
                 "shasum": ""
             },
             "require": {
-                "maximebf/consolekit": "@dev",
-                "symfony/finder": "v2.1.4"
+                "maximebf/consolekit": "1.0.3",
+                "symfony/finder": "2.1.4"
             },
             "require-dev": {
-                "behat/behat": "v2.4.4"
+                "behat/behat": "2.4.4"
             },
             "bin": [
                 "bin/phpwatch"
@@ -92,7 +93,7 @@
                 }
             ],
             "description": "Command line client that allow you to run arbitrary shell commands whenever changes occur in a list of specified files",
-            "time": "2012-12-05 02:44:22"
+            "time": "2013-11-20 15:59:56"
         },
         {
             "name": "fabpot/php-cs-fixer",
@@ -871,17 +872,17 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.3.6",
+            "version": "v2.3.7",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "f880062d56edefb25b36f2defa65aafe65959dc7"
+                "reference": "00848d3e13cf512e77c7498c2b3b0192f61f4b18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/f880062d56edefb25b36f2defa65aafe65959dc7",
-                "reference": "f880062d56edefb25b36f2defa65aafe65959dc7",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/00848d3e13cf512e77c7498c2b3b0192f61f4b18",
+                "reference": "00848d3e13cf512e77c7498c2b3b0192f61f4b18",
                 "shasum": ""
             },
             "require": {
@@ -920,11 +921,11 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-25 06:04:15"
+            "time": "2013-11-13 21:27:40"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.3.6",
+            "version": "v2.3.7",
             "target-dir": "Symfony/Component/Filesystem",
             "source": {
                 "type": "git",
@@ -1018,17 +1019,17 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.3.6",
+            "version": "v2.3.7",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "6bb881b948368482e1abf1a75c08bcf88a1c5fc3"
+                "reference": "c1bda5b459d792cb253de12c65beba3040163b2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/6bb881b948368482e1abf1a75c08bcf88a1c5fc3",
-                "reference": "6bb881b948368482e1abf1a75c08bcf88a1c5fc3",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/c1bda5b459d792cb253de12c65beba3040163b2b",
+                "reference": "c1bda5b459d792cb253de12c65beba3040163b2b",
                 "shasum": ""
             },
             "require": {
@@ -1061,7 +1062,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-22 18:04:39"
+            "time": "2013-10-17 11:48:01"
         },
         {
             "name": "twig/twig",
