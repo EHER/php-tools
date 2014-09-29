@@ -23,6 +23,7 @@ git clone https://github.com/EHER/php-tools.git ~/.php-tools
 ```bash
 cd ~/.php-tools
 curl -sS https://getcomposer.org/installer | php
+mkdir -p ~/bin
 mv composer.phar ~/bin/composer
 ```
 
