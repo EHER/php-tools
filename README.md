@@ -15,22 +15,22 @@ Tools included:
 ##Install in 3 steps
 
 1. Clone the repository
-```bash
-git clone https://github.com/EHER/php-tools.git ~/.php-tools
-```
+  ```bash
+  git clone https://github.com/EHER/php-tools.git ~/.php-tools
+  ```
 
 2. Get [composer]
-```bash
-cd ~/.php-tools
-curl -sS https://getcomposer.org/installer | php
-mkdir -p ~/bin
-mv composer.phar ~/bin/composer
-```
+  ```bash
+  cd ~/.php-tools
+  curl -sS https://getcomposer.org/installer | php
+  mkdir -p ~/bin
+  mv composer.phar ~/bin/composer
+  ```
 
 3. Install
-```bash
-~/bin/composer install
-```
+  ```bash
+  ~/bin/composer install
+  ```
 
 ##Configure Path
 
