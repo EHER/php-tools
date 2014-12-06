@@ -40,7 +40,7 @@ Tools included:
   ```bash
   cd
   php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=bin --filename=composer
-  composer global config bin-dir ~/bin
+  composer config -g bin-dir ~/bin
   ```
 
 3. Add php-tools to global composer
