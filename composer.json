@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "name": "eher/php-tools",
     "require": {
-        "asm89/twig-lint": "dev-master",
+        "asm89/twig-lint": "*",
         "eher/phpwatch": "*",
         "fabpot/php-cs-fixer": "*",
         "pdepend/pdepend" : "*",

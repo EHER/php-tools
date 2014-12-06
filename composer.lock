@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f56fede0db667441de11e01d6e5b19f3",
+    "hash": "7989e32b48f4f2a507662822a443b521",
     "packages": [
         {
             "name": "asm89/twig-lint",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asm89/twig-lint.git",
-                "reference": "4f23c9f449ede8edc14ba808a94316206ca89152"
+                "reference": "0d7b47bc9e044c6dc768b725258a9e5dfb8a9f16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asm89/twig-lint/zipball/4f23c9f449ede8edc14ba808a94316206ca89152",
-                "reference": "4f23c9f449ede8edc14ba808a94316206ca89152",
+                "url": "https://api.github.com/repos/asm89/twig-lint/zipball/0d7b47bc9e044c6dc768b725258a9e5dfb8a9f16",
+                "reference": "0d7b47bc9e044c6dc768b725258a9e5dfb8a9f16",
                 "shasum": ""
             },
             "require": {
@@ -29,11 +29,6 @@
                 "bin/twig-lint"
             ],
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "Asm89\\Twig\\Lint\\": "src/"
@@ -56,7 +51,7 @@
                 "lint",
                 "twig"
             ],
-            "time": "2014-05-31 14:05:33"
+            "time": "2014-05-31 13:18:21"
         },
         {
             "name": "doctrine/instantiator",
@@ -1901,7 +1896,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "asm89/twig-lint": 20,
         "phpspec/phpspec": 20
     },
     "prefer-stable": false,
