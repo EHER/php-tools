@@ -25,7 +25,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:EHER/phpctags.git"
+            "url": "https://github.com/EHER/phpctags.git"
         }
     ]
 }
