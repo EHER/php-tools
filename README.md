@@ -16,11 +16,13 @@ Tools included:
 ##Install in 2 steps
 
 1. Install and configure [composer]
+
   ```bash
   mkdir -p ~/bin
-  php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=bin --filename=composer -f
+  php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=~/bin --filename=composer
   ~/bin/composer global config bin-dir ~/bin
   ```
+
 2. Add php-tools to global composer
   ```bash
   ~/bin/composer global require eher/php-tools
