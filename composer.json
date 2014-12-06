@@ -19,8 +19,8 @@
         "phpmd/phpmd" : "*",
         "phpspec/phpspec": "2.0.*@dev",
         "phpunit/phpunit": "*",
-        "squizlabs/php_codesniffer": "*"
-        "techlivezheng/phpctags": "*@dev",
+        "squizlabs/php_codesniffer": "*",
+        "techlivezheng/phpctags": "*"
     },
     "repositories": [
         {
