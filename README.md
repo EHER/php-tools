@@ -21,14 +21,13 @@ Tools included:
 
 2. Get [composer]
   ```bash
-  cd ~/.php-tools
-  curl -sS https://getcomposer.org/installer | php
   mkdir -p ~/bin
-  mv composer.phar ~/bin/composer
+  php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=bin --filename=composer -f
   ```
 
 3. Install
   ```bash
+  cd ~/.php-tools
   ~/bin/composer install
   ```
 
