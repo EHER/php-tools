@@ -1,4 +1,15 @@
 {
+    "authors": [
+        {
+            "name": "Alexandre Eher",
+            "email": "alexandre@eher.com.br"
+        }
+    ],
+    "config": {
+        "bin-dir": "../bin"
+    },
+    "license": "BSD 3-Clause",
+    "minimum-stability": "stable",
     "name": "eher/php-tools",
     "require": {
         "asm89/twig-lint": "dev-master",
@@ -9,16 +20,12 @@
         "phpspec/phpspec": "2.0.*@dev",
         "phpunit/phpunit": "*",
         "squizlabs/php_codesniffer": "*"
+        "techlivezheng/phpctags": "*@dev",
     },
-    "config": {
-        "bin-dir": "../bin"
-    },
-    "minimum-stability": "stable",
-    "license": "BSD 3-Clause",
-    "authors": [
+    "repositories": [
         {
-            "name": "Eher",
-            "email": "alexandre@eher.com.br"
+            "type": "vcs",
+            "url": "git@github.com:EHER/phpctags.git"
         }
     ]
 }
