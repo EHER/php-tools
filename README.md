@@ -13,26 +13,47 @@ Tools included:
 - [phpwatch] - Command line client that allow you to run arbitrary shell commands whenever changes occur in a list of specified files
 - [twig-lint] - Twig-lint is a lint tool for your twig files
 
-##Install in 2 steps
 
-1. Install and configure [composer]
+
+##Install in 3 steps
+
+1. Configure your Path to have a new bin folder
+
+  Create the bin folder
   ```bash
   mkdir -p ~/bin
-  php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=bin --filename=composer -f
-  ~/bin/composer global config bin-dir ~/bin
   ```
-2. Add php-tools to global composer
+
+  Add the new path to .bash_profile
+  ```
+  export PATH=~/bin:"$PATH"
+  ```
+  If you don't have a .bash_profile, just create it.
+  
+  Don't forget to call your .bash_profile to update the Path
   ```bash
-  ~/bin/composer global require eher/php-tools
+  . ~/.bash_profile
   ```
 
-##Configure Path
+2. Install and configure [composer]
 
-Add this to .bash_profile
-```bash
-export PATH=~/bin:"$PATH"
-```
-If you don't have a .bash_profile, just create it.
+  ```bash
+  cd
+  php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=bin --filename=composer
+  composer config -g bin-dir ~/bin
+  ```
+
+3. Add php-tools to global composer
+  ```bash
+  composer global require eher/php-tools
+  ```
+
+##Upgrading
+
+To upgrade php-tools to latest version run
+  ```bash
+  composer global update eher/php-tools
+  ```
 
 [composer]: http://getcomposer.org/
 [pdepend]: https://github.com/pdepend/pdepend
