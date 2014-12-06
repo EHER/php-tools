@@ -25,10 +25,15 @@ Tools included:
   ```
 
   Add the new path to .bash_profile
-  ```bash
+  ```
   export PATH=~/bin:"$PATH"
   ```
   If you don't have a .bash_profile, just create it.
+  
+  Don't forget to call your .bash_profile to update the Path
+  ```bash
+  . ~/.bash_profile
+  ```
 
 2. Install and configure [composer]
 
