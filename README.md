@@ -3,6 +3,7 @@ Php console tools installed with composer
 
 Tools included:
 - [composer] - Dependency Manager for PHP
+- [faker] - Faker is a PHP library that generates fake data for you
 - [pdepend] - This tool shows you the quality of your design in the terms of extensibility, reusability and maintainability
 - [php-cs-fixer] - Analyzes some PHP source code and tries to fix coding standards issues (PSR-1 and PSR-2 compatible)
 - [phpcs] - PHP_CodeSniffer tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards
@@ -56,6 +57,7 @@ To upgrade php-tools to latest version run
   ```
 
 [composer]: http://getcomposer.org/
+[faker]: https://github.com/fzaninotto/faker
 [pdepend]: https://github.com/pdepend/pdepend
 [php-cs-fixer]: https://github.com/fabpot/php-cs-fixer
 [phpcs]: https://github.com/squizlabs/PHP_CodeSniffer
